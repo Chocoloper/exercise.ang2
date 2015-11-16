@@ -1,0 +1,26 @@
+{
+  "name": "tmpl",
+  "version": "0.0.1",
+  "description": "tmpl",
+  "main": "build/main.js",
+  "scripts": {
+    "start": " node ./built/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gitgit"
+  },
+  "keywords": [
+    "ang2",
+    "exercise",
+    "template"
+  ],
+  "author": "Gordon Lawrenz",
+  "license": "ISC",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.45",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "systemjs": "^0.19.6"
+  }
+}
