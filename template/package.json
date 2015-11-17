@@ -21,6 +21,8 @@
   "dependencies": {
     "angular2": "^2.0.0-alpha.46",
     "live-server": "^0.8.2",
-    "systemjs": "^0.19.6"
+    "systemjs": "^0.19.6"},
+  "devDependencies": {
+    "typescript": "^1.6.2"
   }
 }
