@@ -1,6 +1,6 @@
 var test = require('./server/appServerCluster');
 
-var config;
+var config: any;
 var cluster = require('cluster');
 if (cluster.isMaster) {
   process.env.PROJECT_ROOT = __dirname.substring(0, __dirname.lastIndexOf('/'));

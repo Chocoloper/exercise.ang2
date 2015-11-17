@@ -11,7 +11,7 @@ var serverCluster = function() {
       cluster.fork();
     }
 
-    cluster.on('death', function(worker) {
+    cluster.on('death', function(worker: any) {
       console.log('Worker' + worker.pid + 'died! Creating a new Worker!');
       cluster.fork();
     });

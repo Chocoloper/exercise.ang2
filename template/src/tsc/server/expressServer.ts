@@ -7,7 +7,7 @@ var port = 8080;
 
 appserver.use(bodyParser.json());
 appserver.use(bodyParser.urlencoded({ extended: false }));
-appserver.use((req, res, next) => {
+appserver.use((req: any, res: any, next: any) => {
   console.log(req.method+" "+req.protocol+"://"+req.hostname+req.path);
   next();
 })
@@ -22,8 +22,8 @@ appserver.use('/systemjs',express.static(process.env.PROJECT_ROOT + '/node_modul
 appserver.use('/', routes);
 
   //Catch 404
-appserver.use((req, res, next) => {
-  var err = new Error('Not Found');
+appserver.use((req: any, res: any, next: any) => {
+  var err: any = new Error('Not Found');
   err['status'] = 404;
   next(err);
 })
