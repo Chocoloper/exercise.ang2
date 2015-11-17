@@ -8,29 +8,17 @@
         "removeComments": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "outDir": "built",
         "sourceMap": false
     },
     "filesGlob": [
         "./src/**/*.ts",
-        "./node_modules/angular2/typings/**/*.ts"
+        "./node_modules/angular2/typings/*.d.ts"
     ],
     "exclude": [
         "node_modules"
     ],
     "files": [
-        "./src/tsc/main.ts",
-        "./src/tsc/server/appServerCluster.ts",
-        "./src/tsc/server/expressServer.ts",
-        "./src/tsc/server/routes.ts",
-        "./src/tsc/webapp/webApp.ts",
-        "./node_modules/angular2/typings/angular-protractor/angular-protractor.d.ts",
-        "./node_modules/angular2/typings/es6-shim/es6-shim.d.ts",
-        "./node_modules/angular2/typings/hammerjs/hammerjs.d.ts",
-        "./node_modules/angular2/typings/jasmine/jasmine.d.ts",
-        "./node_modules/angular2/typings/node/node.d.ts",
-        "./node_modules/angular2/typings/selenium-webdriver/selenium-webdriver.d.ts",
-        "./node_modules/angular2/typings/tsd.d.ts",
-        "./node_modules/angular2/typings/zone/zone.d.ts"
+        "./src/app/webApp.ts",
+        "./node_modules/angular2/typings/tsd.d.ts"
     ]
 }

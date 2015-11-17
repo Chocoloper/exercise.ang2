@@ -4,7 +4,8 @@
   "description": "tmpl",
   "main": "build/main.js",
   "scripts": {
-    "start": " node ./built/main.js"
+    "tsc": "tsc -w",
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "angular2": "^2.0.0-alpha.46",
-    "body-parser": "^1.14.1",
-    "express": "^4.13.3",
+    "live-server": "^0.8.2",
     "systemjs": "^0.19.6"
   }
 }
