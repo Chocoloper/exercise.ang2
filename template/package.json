@@ -2,7 +2,6 @@
   "name": "tmpl",
   "version": "0.0.1",
   "description": "tmpl",
-  "main": "build/main.js",
   "scripts": {
     "tsc": "tsc -w",
     "start": "live-server"
