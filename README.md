@@ -38,4 +38,4 @@ Possible solutions will be uploaded into this repository after the exercise eval
 
 ##Useful Links
 
-[Object To Change]
+* [Angular 2 Cheat Sheet](https://angular.io/cheatsheet)
