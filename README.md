@@ -32,7 +32,7 @@ This repository was created to supply the participants of the Advanced Web Tech 
  * III) Cookies. You love Cookies. You know like ten thousand cookie recipes. Write an angular2 app which enables you to enter all the cookie recipes you are loving so much and create another component which lists them all! Cookies are great.
  * IV)  I think you got it? Create your own flavour which sticks to the steps in Task 1.
 
-##Solution
+##Solutions
 
 Possible solutions will be uploaded into this repository after the exercise evalution.
 
