@@ -2,9 +2,9 @@
 
 # Contents
 * [About](#about)
-* [Exercise Tasks](#exercise)
+* [Exercise Tasks](#exercise-tasks)
 * [Solutions](#solutions)
-* [Useful Links](#links)
+* [Useful Links](#useful-links)
 
 ##About
 
