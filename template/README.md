@@ -13,7 +13,7 @@ cd exercise.ang2/template
 # install dependencies
 npm install
 # transpiles the sources
-tsc
+npm run tsc
 # run it
 npm start
 ```
@@ -23,6 +23,7 @@ enter [http://localhost:8080](http://localhost:8080) in your browser!
 * [File Structure](#file-structure)
 
 ## File Structure
+[Object to change]
 ```
 template/
  ├──src/                                   * our source files that will be compiled to javascript
