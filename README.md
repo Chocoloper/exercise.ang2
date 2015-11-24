@@ -3,19 +3,58 @@
 # Contents
 * [About](#about)
 * [Assignment](#assignment)
+* [Preparations](#preparations)
+  * [Nodejs](#nodejs)
+  * [How-To-Run](#how-to-run)
 * [Solutions](#solutions)
 * [Useful links](#useful-links)
 
 ##About
 
-This repository was created to supply the participants of the Advanced Web Tech lecture at the RWTH Aachen in WS15/16 with a template for angular2 webapps, tasks for the exercise, useful links and possible solution, which will be available after the exercise evaluation. Feel free to contribute even if you don't belong to the lecture.
+This repository was created to supply the participants of the Advanced Web Tech lecture at the RWTH Aachen in WS15/16 with a template for angular2 webapps, a short how to, tasks for the assignment, possible solution and useful links.
+The group "YuSaGoAnMa" wishes good luck. Feel free to contribute or contact us, if something is not right or you need some help.
+
+##Preparations
+###Nodejs
+
+To work with angular you need to install nodejs. You can download it from [here] (https://nodejs.org/en/download/), install it via `apt-get` in Linux or via `homebrew` in Mac:
+
+ * `sudo apt-get install node`
+ * `brew install node`
+
+After the installation you can check if everything went right by entering node -v into the terminal. You should see something like v5.0.0. If not, check if your PATH variable includes your node installation or repeat the steps above.
+
+###How-To-Run
+
+To run this template clone this repository, create a working copy of the template directory and switch into your working copy. Now install the dependencies, transpile and run it:
+```bash
+#clone the repository
+git clone https://github.com/Chocoloper/exercise.ang2
+
+#create a working copy
+cp -R ./exercise.ang2/template ./exercise.ang2/working
+
+#switch into working copy
+cd ./exercise.ang2/working
+
+#install dependencies
+npm install
+
+#transpile
+npm run tsc
+
+#run it
+npm start
+```
 
 ##Assignment
 
 ###Scenario
+
 Cookies! You love cookies! You know like ten thousand cookie recipes!!! Write an angular 2 app which enables you to save and list all your cookie recipes, so you will never again lose one of them! Cookies are great!!!
 
 ###Implementation Details
+
 * Three components:
   *	One component which can create cookie recipes.
   *	The other component can list all cookie recipes.
