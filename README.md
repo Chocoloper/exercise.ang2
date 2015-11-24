@@ -4,6 +4,7 @@
 * [About](#about)
 * [Assignment](#assignment)
 * [Solutions](#solutions)
+* [Useful links](#useful-links)
 
 ##About
 
@@ -11,10 +12,10 @@ This repository was created to supply the participants of the Advanced Web Tech 
 
 ##Assignment
 
-### Scenario
+###Scenario
 Cookies! You love cookies! You know like ten thousand cookie recipes!!! Write an angular 2 app which enables you to save and list all your cookie recipes, so you will never again lose one of them! Cookies are great!!!
 
-### Implementation Details
+###Implementation Details
 * Three components:
   *	One component which can create cookie recipes.
   *	The other component can list all cookie recipes.
